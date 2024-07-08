@@ -101,6 +101,9 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .ekip-uye {
   color: #ffffff;
 }
