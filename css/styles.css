@@ -30,6 +30,9 @@ body {
 .contacts:hover {
   color: #404bbf;
 }
+.contacts:focus {
+  color: #404bbf;
+}
 .adres .iletisim {
   font-style: normal;
   font-weight: 400;
