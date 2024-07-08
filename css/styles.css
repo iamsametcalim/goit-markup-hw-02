@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roborto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -33,18 +33,24 @@ body {
 .contacts:focus {
   color: #404bbf;
 }
-.adres .contacts .iletisim {
+.contacts .adres .iletisim {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
-  color: #434455;
+  color: #2e2f42;
 }
-
+.adres {
+  font-style: normal;
+}
+.iletisim {
+  color: #2e2f42;
+}
 .adres .iletisim:hover {
   color: #404bbf;
 }
 .adres .iletisim:focus {
   color: #404bbf;
+}
 .hero {
   background-color: #2e2f42;
 }
@@ -95,9 +101,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.section-baslik,
-.baslik-uc,
-.baslik-dort {
+.section-baslik {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -133,7 +137,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.apps {
+.apps-bir {
   background-color: #ffffff;
 }
 .apps-baslik {
@@ -169,4 +173,3 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-
