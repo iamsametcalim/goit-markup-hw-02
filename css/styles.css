@@ -33,7 +33,7 @@ body {
 .contacts:focus {
   color: #404bbf;
 }
-.adres .iletisim {
+.adres .contacts .iletisim {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
