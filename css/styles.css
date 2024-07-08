@@ -2,13 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "node_modules/modern-normalize/modern-normalize.css";
 
-:root {
-  --primary-font: "roboto", sans-serif;
-  --second-font: "raleway", sans-serif;
-}
-
 body {
-  font-family: var(--primary-font);
+  font-family: "roborto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -17,7 +12,7 @@ body {
   background-color: #ffffff;
 }
 .logo {
-  font-family: var(--second-font);
+  font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -28,44 +23,33 @@ body {
 .logo-iki {
   color: #2e2f42;
 }
-.studio,
-.portfolio,
 .contacts {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: #2e2f42;
+  color: #434455;
 }
-.studio:hover,
-.portfolio:hover,
+
 .contacts:hover {
   color: #404bbf;
 }
-.adres .tel {
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-  color: #2e2f42;
-}
-.adres .mail {
+.adres .iletisim {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   color: #2e2f42;
 }
 
-.adres .mail:hover {
+.adres .iletisim:hover {
   color: #404bbf;
 }
-.adres .tel:hover {
-  color: #404bbf;
-}
+
 .hero {
   background-color: #2e2f42;
 }
 
-.baslik-bir {
+.hero-baslik {
   font-weight: 500;
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -76,7 +60,7 @@ body {
   height: 170px;
 }
 .button {
-  font-family: var(--primary-font);
+  font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,10 +78,7 @@ body {
   background-color: #404bbf;
 }
 
-.strategy,
-.punctuality,
-.diligence,
-.technologies {
+.ourf-baslik {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -105,10 +86,7 @@ body {
   color: #2e2f42;
 }
 
-.strtgypar,
-.punctupar,
-.dilipar,
-.techpar {
+.ourf-par {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -117,7 +95,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.baslik-iki,
+.section-baslik,
 .baslik-uc,
 .baslik-dort {
   font-size: 36px;
@@ -127,32 +105,17 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.pro-des,
-.fro-des,
-.mar-mar,
-.uii-des {
+.ekip-uye {
   color: #ffffff;
 }
-.mark-guerrero,
-.daniel-wilson {
+.ekip-isim {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.tom-ford,
-.camila-garcia {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.duct-ner,
-.end-per,
-.marketing,
-.uii-ner {
+.unvan {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -167,32 +130,17 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.banking-app,
-.cashless-payment,
-.meditation-app,
-.taxi-service,
-.screen-illustrations,
-.online-courses {
+.apps {
   background-color: #ffffff;
 }
-.bank-app,
-.cash-pay,
-.med-app,
-.tax-ser,
-.scr-ill,
-.onl-cou {
+.apps-baslik {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.app-app,
-.mark-eting,
-.tion-app,
-.taxi-market,
-.des-ing,
-.online-mar {
+.apps-isim {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -202,7 +150,7 @@ body {
   background-color: #2e2f42;
 }
 .logo-footer {
-  font-family: var(--second-font);
+  font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -218,3 +166,4 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
