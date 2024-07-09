@@ -51,6 +51,7 @@ body {
 .adres .iletisim:focus {
   color: #404bbf;
 }
+
 .hero {
   background-color: #2e2f42;
 }
@@ -137,7 +138,8 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.apps-bir, .apps {
+.apps-bir,
+.apps {
   background-color: #ffffff;
 }
 .apps-baslik {
@@ -173,3 +175,4 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
